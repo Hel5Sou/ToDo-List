@@ -1,6 +1,6 @@
 
 .app {
-  background: #209cee;
+  background: #61DBFB;
   height: 100vh;
   padding: 30px;
 }
@@ -8,14 +8,14 @@
 .todo-list {
   background: #e8e8e8;
   border-radius: 4px;
-  max-width: 700px;
+  max-width: 1200px;
   padding: 5px;
 }
 
 .todo {
   align-items: center;
   border-radius: 3px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
   display: flex;
   font-size: 16px;
   justify-content: space-between;
@@ -24,21 +24,29 @@
 }
 
 .in-todo {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.824);
 }
 
 .in-progress {
-  background: greenyellow;
+  background: #61DBFB;
   font-weight: bold;
 }
 
 .header {
-  background-color:greenyellow;
+  background-color: dimgray;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #209cee;
+  color: #61DBFB;
+}
+
+.site-footer {
+  background-color: dimgray;
+  min-height: 10vh;
+  display: flex;
+  padding: 40px;
+  color: #61DBFB;
 }
